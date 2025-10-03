@@ -3,10 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  Leading Strategic Explorations team at <a href="https://openai.com/">OpenAI</a><br><br>
-  Incoming Assistant Professor, <br>
-  Electrical Engineering and Computing + Mathematical Sciences, <br>
-  <a href="https://www.caltech.edu">California Institute of Technology (Caltech)</a>.
+  Fresher .NET Developer <br>
+  Master in IT (Information Systems) <br>
+  <a href="https://hcmus.edu.vn/">University of Science</a>.
 
 profile:
   image: profile.jpg
@@ -14,10 +13,11 @@ profile:
   address: false
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+experiences: true
 ---
 
-**Research:** My goal is to build powerful AI models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I am currently focused on developing transferable techniques to improve generative models, including architecture, optimization, training objectives, and data efficiency. I invented many foundational concepts and techniques in (score-based) diffusion models, for which you can find more in a [blog post](/blog/2021/score/), a [quanta magazine article](https://www.quantamagazine.org/the-physics-principle-that-inspired-modern-ai-art-20230105/), or a recent [interview](https://x.com/slaterstich/status/1911817486439461009).
+**Research:** My focus is on software engineering and information systems, with particular interest in applying modern architectural patterns such as Clean Architecture, Domain-Driven Design, and microservices. I enjoy working with C#, ASP.NET Core, and relational databases, aiming to design scalable and maintainable systems. My background includes strong foundations in Algorithms, Data Structures, and Object-Oriented Programming (with Design Patterns), which I apply to both academic projects and practical web development.
 
-**Previously:** I received my Ph.D. in Computer Science from [Stanford University](https://www.stanford.edu), advised by [Stefano Ermon](https://cs.stanford.edu/~ermon). I was a research intern at [Google Brain](https://research.google/teams/brain/), Uber ATG, and [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). I obtained my Bachelor's degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/), where I worked with [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun/index.shtml), [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/), and [Richard Zemel](http://www.cs.toronto.edu/~zemel/inquiry/home.php).
+**Previously:** I received my Master’s degree in Information Technology, specializing in Information Systems, from the University of Science. During my studies, I completed several academic projects, including distributed database management for Big Data, Internet Banking applications with RSA & PGP integration, and POS systems. My Bachelor’s degree in Information Technology also provided extensive exposure to software development, database systems, and applied programming.

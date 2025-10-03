@@ -1,0 +1,22 @@
+<div class="experiences">
+  <h2>WORK EXPERIENCES AND PROJECTS</h2>
+  <ul>
+    {% assign empty = "" | split: "" %}
+    {% assign items = site.experiences | default: empty
+       | where_exp:"p","p.url != page.url"
+       | sort:"date" | reverse %}
+
+    {% if items.size > 0 %}
+      {% for doc in items %}
+        <li>
+          <a href="">{{ doc.title }}</a><br>
+          {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
+          <!-- {% if doc.date %}<small>{{ doc.date | date: "%B %-d, %Y" }}</small>-->
+           {% endif %} 
+        </li>
+      {% endfor %}
+    {% else %}
+      <li>No entries yet.</li>
+    {% endif %}
+  </ul>
+</div>
